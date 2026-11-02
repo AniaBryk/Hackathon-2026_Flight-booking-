@@ -1,0 +1,80 @@
+.training-banner {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 10px 18px;
+  background: #183449;
+  color: #fff;
+  text-align: center;
+  font-size: .83rem;
+  font-weight: 600;
+}
+.app-shell { max-width: 1140px; padding: 0 32px; margin: 0 auto; }
+.page-header { display: flex; justify-content: space-between; align-items: center; padding: 27px 0; border-bottom: 1px solid #dce3e9; gap: 16px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-size: 1.15rem; font-weight: 750; text-decoration: none; }
+.brand-mark { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 9px; color: white; background: #146b63; font-size: 1.6rem; }
+.demo-label, .eyebrow { font-size: .7rem; font-weight: 700; letter-spacing: .12em; color: #496577; }
+.demo-label { border: 1px solid #cbd7e0; padding: 4px 9px; border-radius: 5px; white-space: nowrap; }
+.intro { padding: 46px 0 31px; }
+.eyebrow { margin-bottom: 13px; color: #146b63; }
+h1 { font-size: clamp(2.1rem, 5vw, 3.35rem); line-height: 1.12; letter-spacing: -.04em; margin-bottom: 18px; font-weight: 720; }
+h1 span { color: #146b63; }
+.intro > p:last-child { color: #526678; max-width: 570px; margin-bottom: 0; }
+.panel { background: white; border: 1px solid #dce3e9; border-radius: 14px; padding: 26px; }
+.search-panel { box-shadow: 0 8px 25px #18344906; }
+.section-heading { display: flex; align-items: center; gap: 10px; margin-bottom: 21px; }
+.step-number { color: #146b63; background: #eaf4f1; border-radius: 6px; font-size: .72rem; padding: 3px 7px; font-weight: 700; }
+.search-form { display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 15px; align-items: end; }
+label { display: flex; flex-direction: column; gap: 6px; font-size: .85rem; font-weight: 650; }
+input, select { width: 100%; min-width: 0; min-height: 46px; border: 1px solid #b9c8d3; border-radius: 7px; padding: 9px 11px; background: #fff; color: #182d44; }
+.primary-button, .select-button { min-height: 46px; border: 1px solid transparent; border-radius: 7px; padding: 9px 18px; font-weight: 650; }
+.primary-button { background: #146b63; color: white; }
+.primary-button:hover { background: #0f554f; }
+.primary-button span { margin-left: 16px; }
+.hint { color: #526678; font-size: .8rem; margin: 14px 0 0; }
+.error { background: #fff2ef; border-left: 3px solid #b32c1e; padding: 10px 13px; color: #982317; font-size: .9rem; margin: 15px 0 0; }
+.journey-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 27px; align-items: start; margin-top: 35px; }
+.results-section > .section-heading { margin-bottom: 6px; }
+.results-summary { color: #526678; font-size: .87rem; margin-bottom: 18px; }
+.flight-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 15px; }
+.flight-card { background: white; border: 1px solid #dce3e9; border-radius: 12px; padding: 22px; }
+.flight-card.is-selected { border: 2px solid #146b63; padding: 21px; }
+.flight-topline, .flight-bottomline { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.flight-topline { margin-bottom: 17px; }
+.flight-topline span { font-size: .75rem; border: 1px solid #dce3e9; padding: 1px 7px; border-radius: 4px; }
+.flight-route { display: flex; gap: 24px; align-items: center; font-size: 1.65rem; line-height: 1.3; }
+.flight-route > span { color: #75918d; font-size: 1.2rem; }
+.flight-card p { font-size: .8rem; color: #526678; margin: 6px 0; }
+.flight-bottomline { border-top: 1px dashed #dce3e9; margin-top: 18px; padding-top: 17px; flex-wrap: wrap; }
+small { font-size: .75rem; font-weight: 400; color: #526678; }
+.select-button { border-color: #b9c8d3; color: #146b63; background: white; min-height: 40px; padding: 6px 12px; }
+.select-button:hover, .select-button[aria-pressed='true'] { background: #eaf4f1; border-color: #146b63; }
+.booking-placeholder { color: #526678; font-size: .95rem; margin: 25px 0 8px; }
+.booking-summary { padding-bottom: 16px; border-bottom: 1px dashed #dce3e9; }
+.booking-summary p { margin: 5px 0; font-size: .85rem; }
+.booking-form { display: grid; gap: 16px; margin-top: 20px; }
+.booking-form .hint { margin: 0; }
+.total-row { display: flex; justify-content: space-between; gap: 10px; padding-top: 15px; border-top: 1px solid #dce3e9; }
+.confirmation { background: #edf7f0; border: 1px solid #add1b8; border-radius: 9px; padding: 18px; margin-top: 23px; overflow-wrap: anywhere; }
+.confirmation h3 { margin-bottom: 7px; color: #205334; }
+.confirmation p { margin-bottom: 10px; font-size: .85rem; }
+.confirmation dl { display: grid; grid-template-columns: auto 1fr; column-gap: 15px; row-gap: 7px; margin: 0; font-size: .8rem; }
+.confirmation dt { color: #395b47; }
+.confirmation dd { margin: 0; font-weight: 650; }
+.empty-state { border: 1px dashed #b9c8d3; border-radius: 12px; padding: 24px; }
+.empty-state p { color: #526678; margin-bottom: 0; }
+footer { border-top: 1px solid #dce3e9; color: #526678; font-size: .75rem; margin-top: 42px; padding: 23px 0; }
+@media (max-width: 850px) {
+  .search-form { grid-template-columns: 1fr 1fr; }
+  .journey-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 500px) {
+  .app-shell { padding: 0 18px; }
+  .training-banner { font-size: .72rem; }
+  .demo-label { display: none; }
+  .intro { padding-top: 30px; }
+  .panel { padding: 20px; }
+  .search-form { grid-template-columns: 1fr; }
+  .flight-card { padding: 18px; }
+  .flight-card.is-selected { padding: 17px; }
+}
