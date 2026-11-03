@@ -60,7 +60,7 @@ function App() {
     setSearchError('')
     setResults(flights.filter((flight) => (
       flight.origin === search.origin && flight.destination === search.destination && flight.date === search.date
-    )))
+    )).sort((a, b) => b.priceInr - a.priceInr))
   }
 
   function selectFlight(flight) {
