@@ -39,7 +39,7 @@ The initial search is BLR → DEL on **2026-11-20**. Click **Search flights** to
 
 | Check | Action | Expected result |
 | --- | --- | --- |
-| T01 | Search BLR → DEL, 2026-11-20 | Exactly TR101 and TR102, with the fixture prices/departures |
+| T01 | Search BLR → DEL, 2026-11-20 | Exactly TR102 (INR 6,500) then TR101 (INR 5,000), highest price first, with the fixture departures |
 | T02 | Search BOM → DEL, or change the date to 2026-11-21 | Clear no-flights message |
 | T03 | Choose the same airports, then separately clear the date | Helpful validation; no invalid results |
 | T04 | Select TR101, use Test Traveller and 2 passengers, confirm | Total INR 10,000 before and after confirmation; status SIMULATED; reference starts TRAIN- |
